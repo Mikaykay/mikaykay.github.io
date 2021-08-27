@@ -27,13 +27,19 @@ After combining all the files together here is what we have and the spread in so
 ~~~
 # of columns = 9
 
-# of rows = 
-# of nulls
+# of rows = 1754155
+# of nulls = 0
 
-Target Balance
-# of customer_ids
-Spread of amount spent on each day
+# of customer_ids = 4990
 ~~~
+Fraud Distribution
+
+![image](https://user-images.githubusercontent.com/53801463/131184070-a3f76f42-075b-44ec-903c-b61e454f92b6.png)
+
+Spread of amount spent each day
+
+![image](https://user-images.githubusercontent.com/53801463/131184117-8e8099b9-979c-4bf0-8b3c-f6fcd930723a.png)
+
 ## Cleaning, Feature Engineering, Preparing the data for modeling
 ### Cleaning
 -	Rename columns
@@ -79,16 +85,22 @@ There are some downsides to doing this, but in the end I know there is always a 
 ```
 ## After Cleaning
 ~~~
-# of columns = 9
+# of columns = 8
 
-# of rows = 
-# of nulls 
+# of rows = 30000
+# of nulls = 0
 
-Target 
-# of customer_ids
-Spread of amount spent on each day
+# of customer_ids = 4487
 ~~~
+Fraud Distribution
+
+![image](https://user-images.githubusercontent.com/53801463/131184820-db24372b-cd20-43ea-b243-95f184d99362.png)
+
+Spread of amount spent each day
+
+![image](https://user-images.githubusercontent.com/53801463/131184832-683c81bc-8a96-4cb9-aac6-4a925f2d6f22.png)
 Now we are ready to move on to the modeling
+
 # Models
 -
 ## Logistic
