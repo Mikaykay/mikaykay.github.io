@@ -58,6 +58,7 @@ Drop columns with:
 -		High number of NaN Values
 -		High cardinality
 Drop columns to prevent leakage and repetition
+
 ### Preparing the data for modeling
 Because the target variable isn’t balanced, I followed made a mixture of two techniques called random under sampling and random over-sampling.
 -	Random under sampling aims to balance class distribution by randomly eliminating majority class examples. This is done until the majority and minority class instances are balanced out. 
@@ -89,7 +90,7 @@ Spread of amount spent on each day
 ~~~
 Now we are ready to move on to the modeling
 # Models
-Splitting: 
+-
 ## Logistic
 ## Decision
 ## Random Forest
