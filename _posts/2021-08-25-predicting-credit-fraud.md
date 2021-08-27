@@ -139,3 +139,4 @@ With these two Tuning models having the same validation score I decided to choos
 ![image](https://user-images.githubusercontent.com/53801463/131191707-0334c3f7-2345-434f-92de-4a9b6d7c9602.png)
 
 # Conclusion
+When I first looked at this data set I saw it as a challenge because I knew the target variable would be unblanaced. But thanks to some googling was able to look up ways to get around that. In the end I thought it was very interesting that the amount played a huge role in these fraudulate transactions. I honestly wish I was able to feature engineer more columns without them falling out due to high cardinality.
