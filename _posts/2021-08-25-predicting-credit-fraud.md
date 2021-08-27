@@ -102,20 +102,40 @@ Spread of amount spent each day
 Now we are ready to move on to the modeling
 
 # Models
--
-## Logistic
-## Decision
-## Random Forest
+Before modeling I randomly split the data into train, validation, and test set then ran the following classification model with little to no altercation on my part. I will say that I used a pipeline for each model with the following: OneHotEncoder, SimpleImputer, StandardScaler, and the model.
+
+### Logistic
+Training Accuracy: 0.737
+
+Validation Accuracy: 0.743
+
+### Decision Tree
+Training accuracy: 1.0
+
+Validation accuracy: 0.719
+
+### Random Forest
+Training Accuracy: 1.0
+
+Validation Accuracy: 0.820
 
 # Tuning Model
+With Random Forest having the best Validation Accuracy I then tried to tune the model to get better results
+
 ## GridSearch
+The best accuracy score for the grid search is: 0.805
+
+The accuracy score with the validation set: 0.824
 ## RandomizedSearchCV
+The best accuracy score for the random search is: 0.805
+
+The accuracy score with the validation set: 0.824
+
+With these two Tuning models having the same validation score I decided to choose GridSearch to find the accuracy score of the test set.
+
+**The accuracy score with the test set: 0.8177**
 
 # Importance 
-## Logistic
-## Decision
-## Random Forest
-### GridSearch
-### RandomizedSearchCV
+![image](https://user-images.githubusercontent.com/53801463/131191707-0334c3f7-2345-434f-92de-4a9b6d7c9602.png)
 
 # Conclusion
